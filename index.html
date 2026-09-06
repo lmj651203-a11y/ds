@@ -20,10 +20,10 @@
     .outlook { margin-top:18px; background:linear-gradient(120deg,#182f7b,#3e3197 52%,#b52d87); color:#fff; border:0; } .outlook h2 { color:#fff; } .outlook p { color:#e4e6ff; line-height:1.7; } .pills { display:flex; gap:9px; flex-wrap:wrap; } .pill { padding:8px 11px; border-radius:999px; background:#ffffff20; border:1px solid #ffffff44; font-size:13px; font-weight:750; }
     footer { text-align:center; color:#7a829a; font-size:12px; margin-top:20px; line-height:1.7; }
     @media(max-width:850px){.filters,.kpis,.grid{grid-template-columns:1fr 1fr}.grid .card{min-width:0}.wide{overflow-x:auto}.heat{min-width:680px}.location{grid-template-columns:1fr 1fr}.top small{display:none}} @media(max-width:520px){main{padding:15px}.top{padding:15px}.filters,.kpis,.grid,.location{grid-template-columns:1fr}.hero{padding:20px}.barrow{grid-template-columns:78px 1fr 40px}}
-  </style>
+   .print{border:1px solid #d7e1f4;background:#fff;color:#315a9b;border-radius:9px;padding:8px 12px;font:inherit;font-size:13px;font-weight:850;cursor:pointer}.print:hover{background:#edf4ff}@media print{.top{position:static;box-shadow:none}.print,.filters,#notice{display:none!important}body{background:#fff}.hero,.card,.kpi{box-shadow:none;break-inside:avoid}.hero{border:0}main{max-width:none;padding:14px}}</style>
 </head>
 <body>
-  <header class="top"><div class="brand"><span class="badge">⌂</span> 평택 아파트 브리핑</div><small>공인중개사 고객 브리핑용 · 정적 GitHub Pages</small></header>
+  <header class="top"><div class="brand"><span class="badge">⌂</span> 평택 아파트 브리핑</div><small>공인중개사 고객 브리핑용 · 정적 GitHub Pages</small><button class="print" type="button" onclick="window.print()">🖨 인쇄 · PDF 저장</button></header>
   <main>
     <section class="hero">
       <h1>평택시 아파트 시장을 한눈에</h1>
